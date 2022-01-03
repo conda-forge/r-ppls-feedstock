@@ -48,11 +48,6 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
 
 # Package: ppls
 # Type: Package
