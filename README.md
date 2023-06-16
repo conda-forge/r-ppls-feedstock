@@ -1,11 +1,11 @@
-About r-ppls
-============
+About r-ppls-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ppls-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=ppls
 
 Package license: GPL (>= 2)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ppls-feedstock/blob/main/LICENSE.txt)
 
 Summary: Contains linear and nonlinear regression methods based on Partial Least Squares and Penalization Techniques. Model parameters are selected via cross-validation, and confidence intervals ans tests for the regression coefficients can be conducted via jackknifing.
 
