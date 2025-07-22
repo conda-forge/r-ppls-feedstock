@@ -1,4 +1,4 @@
-{% set version = '1.6-1.1' %}
+{% set version = "2.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,11 +9,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ppls_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ppls/ppls_{{ version }}.tar.gz
-  sha256: bda283ddd72920ca9011b8718f6ea28d9fe2743050ae204d429f1136bc8ed9ff
+  sha256: e9cd3a5de7f3c239423e96ccccce04555b86202ac80169c5e44cf49b5f534b79
 
 build:
   noarch: generic
-  number: 1005
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -36,10 +36,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=ppls
   license: GPL (>= 2)
-  summary: Contains linear and nonlinear regression methods based on Partial Least Squares and
-    Penalization Techniques. Model parameters are selected via cross-validation, and
-    confidence intervals ans tests for the regression coefficients can be conducted
-    via jackknifing.
+  summary: Contains linear and nonlinear regression methods based on Partial Least Squares and Penalization Techniques. Model parameters are selected via cross-validation, and confidence intervals ans tests for the regression coefficients can be conducted via jackknifing.
   license_family: GPL3
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
